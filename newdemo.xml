@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browsername" value=""/>
+
+    <test name="login to swaglabs with valid credentials">
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="validLogin_p"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="add random products to the cart">
+        <classes>
+            <class name="testcases.TC02_Inventory">
+                <methods>
+                    <include name="addRandomProductsToCart_p"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+  
+</suite>
