@@ -1,6 +1,5 @@
 # SwagLabs
-![SwagLabs Logo](swaglabs.png)
-
+![SwagLabs Logo](https://www.saucedemo.com/v1/img/Login_Bot_graphic.png)
 
 ## Table of Contents
 
