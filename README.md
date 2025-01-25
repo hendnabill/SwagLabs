@@ -1,4 +1,6 @@
 # SwagLabs
+![SwagLabs Logo](swaglabs.png)
+
 
 ## Table of Contents
 
