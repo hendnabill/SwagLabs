@@ -38,13 +38,13 @@ public class P05_CheckOverviewPage extends PageBase {
         return driver.findElement(TAX_VALUE).getText();
     }
 
-    // الحصول على قيمة الضريبة
+    // get tax 
     public double getDisplayedTax() {
         String taxText = driver.findElement(TAX_VALUE).getText();
         return Double.parseDouble(taxText.replace("Tax: $", "").trim());
     }
 
-    // الحصول على الإجمالي مع الضريبة
+    //get total+tax
     public double getDisplayedTotalPrice() {
         String totalPriceText = driver.findElement(PRICE_AFTER_TAX).getText();
         return Double.parseDouble(totalPriceText.replace("Total: $", "").trim());
